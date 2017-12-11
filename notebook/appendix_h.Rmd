@@ -1,0 +1,27 @@
+---
+title: "Appendix H: HUC12 Watershed Characteristics in Bioregions"
+output: html_notebook
+---
+
+## Appendix H: HUC12 Watershed Characteristics in Bioregions
+
+We obtained from Douglas Norton (US EPA) the Excel spreadsheets underlying EPA’s 2014 release of the Recovery Potential Screening Tool for the states of New York, Pennsylvania, Delaware, Maryland, West Virginia, and Virginia, and the District of Columbia. We extracted the HUC12 watersheds (n = 1971) belonging to the four 4-digit hydrologic units in the Chesapeake Bay basin (0205, 0206, 0207, 0208). In ArcGIS, we overlaid ICPRB Bioregions on these HUC12s and identified the dominant bioregion representing each HUC12. This allowed us to examine the values of some key ecological and stressor indicators (Table H-1) by bioregion. Distributions of the indicator values in each of the twelve bioregions are shown in Figures H-1 to H-5. To establish relative levels for each of the indicators, we calculated the 33rd and 67th percentiles of all HUC12 watershed values. These are indicated on the right in Figures H-1 to H-5, and summarized in Table H-2.
+
+For the purpose of area-weighting the index scores for the bioregion and region versions of the Chessie BIBI, we also identified each unique HUC12-bioregion unit and calculated its area. Table H-3 lists the HUC12-bioregion units and their areas.
+
+_Table H-1. EPA descriptions of the indicators shown in Figures H-1 to H-5._
+
+_Figure H-1. Slopes and elevations in Chesapeake Bay HUC12 watersheds, by bioregion._
+
+_Figure H-2. Major land covers in Chesapeake Bay HUC12 watersheds, by bioregion._
+
+_Figure H-3. Hydrologically connected zones, wetlands, and agricultural irrigation in Chesapeake Bay HUC12 watersheds, by bioregion._
+
+_Figure H-4. % Impervious cover and roads in Chesapeake Bay HUC12 watershed, by bioregion._
+
+_Figure H-5. Total nitrogen deposition and fertilizer application in Chesapeake Bay HUC12 watershed, by bioregion._
+
+_Table H-2. Relative levels of topographic features and land/water uses in each bioregion’s HUC12 watersheds, and the bioregion’s total percentages of streamlengths 303d listed for metals, sediments, or pathogens. See text for details; Figures H-1 to H-5 for relative levels._
+
+_Table H-3. A list of all the unique HUC12-bioregion units and their areas in the Chesapeake watershed._
+

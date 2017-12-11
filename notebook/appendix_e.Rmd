@@ -1,0 +1,10 @@
+---
+title: "Appendix E: Biological Metric Descriptions"
+output: html_notebook
+---
+
+## Appendix E: Biological Metric Descriptions
+
+_Table E-1. A description of the standard set of metrics tested during the development of the Chessie BIBI. Abbreviations: Comp, Composition; FFG, Functional Feeding Group; Rich/Div, Richness/Diversity._
+
+_* Urban Intolerant Taxa: Aeshnidae, Ameletidae, Asellidae, Athericidae, Baetidae, Brachycentridae, Caenidae, Calamoceratidae, Cambaridae, Capniidae, Ceratopogonidae, Chironomidae, Chloroperlidae, Cordulegastridae, Corduliidae, Corydalidae, Crangonyctidae, Elmidae, Ephemerellidae, Ephemeridae, Glossosomatidae, Gomphidae, Heptageniidae, Hydropsychidae, Hydroptilidae, Isonychiidae, Lepidostomatidae, Leptophlebiidae, Leuctridae, Libellulidae, Metretopodidae, Nemouridae, Odontoceridae, Peltoperlidae, Perlidae, Perlodidae, Philopotamidae, Phryganeidae, Polycentropodidae, Polymitarcyidae, Potamanthidae, Psephenidae, Pteronarcyidae, Rhyacophilidae, Sericostomatidae, Sialidae, Simuliidae, Stratiomyidae, Tabanidae, Taeniopterygidae, Tipulidae, Uenoidae, Viviparidae_

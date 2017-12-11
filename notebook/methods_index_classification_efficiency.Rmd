@@ -1,0 +1,8 @@
+---
+title: "Index Classification Efficiency"
+output: html_notebook
+---
+
+## Index Classification Efficiency
+
+The ability of the index to correctly classify Reference and Degraded sites is tested in a manner similarly to how individual metrics are tested. The BSP for the index was determined from distributions of the Reference and Degraded index scores using Equation 3. CE was calculated using the BSP as the threshold separating Reference and Degraded index values (Equation 1). Since the percentage of correctly identified Reference samples is approximately equal to the percentage of correctly identified Degraded samples at the index’s BSP, the BSP provides a more accurate representation of CE, as opposed to an arbitrarily selected Reference percentile value or index value (i.e., 50 on a scale of 0 – 100).

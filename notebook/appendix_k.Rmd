@@ -1,0 +1,43 @@
+---
+title: "Appendix K: Index Performance, Accuracy, and Precision"
+output: html_notebook
+---
+
+## Appendix K: Index Performance, Accuracy, and Precision
+
+Benthic macroinvertebrate indices were developed for three spatial resolutions (Chesapeake-wide, Region, and Bioregion) and three taxonomic tiers (order, family, and genus). The performance, accuracy, and precision of the indices were compared to indicate which index provided the best representation of stream condition in the Chesapeake Bay basin.
+
+The accuracy and precision of each of the indices was evaluated using the variability associated with the index’s Classification Efficiency (CE) and Best Separation Point (BSP). Each index developed was subset using a delete-d jackknife procedure repeated five-hundred times. The jackknife was used to create a Training dataset and Validation dataset. Training datasets were used to re-establish scoring thresholds for each unique iteration. Because the Training dataset was used to develop the scoring thresholds, the CE and BSP of the Training dataset was considered dependent, and therefore, were estimates of index precision. Training dataset scoring thresholds were applied to the Validation dataset for each iteration. The Validation dataset was independent of the establishment of scoring thresholds, and therefore, provided an estimate of index accuracy.
+
+### Chesapeake-Wide
+
+The Chesapeake-Wide indices provided promising results with relatively high CE values and low RMSE values for each taxonomic tier (Table K-1 and Figure K-1). CE of each tier was within 4.5% of one another. All the taxonomic resolutions had the same Training RMSE (0.4%). The family-level index had the lowest Validation RMSE (1.0%).
+
+_Table K-1. A delete-d Jackknife procedure was used to measure the CE and BSP variability for each taxonomic tier at the Chesapeake-wide scale. In addition, a delete-d Jackknife cross validation procedure was used to verify CE. The Original value represents the value calculated with all the available data. The Mean Simulated Value and RMSE are calculated during the five-hundred jackknife iterations._
+
+_Figure K-1. The precision (A) and the accuracy (B) of each Chesapeake-Wide index was calculated using a delete-d jackknife procedure. Precision estimates utilized the training datasets created during the delete-d jackknife procedure, while the accuracy estimates use the validation datasets. Blue circles represent the mean simulated CE and the black bars represent the mean simulated CE ± RMSE calculated during the five-hundred delete-d jackknife iterations. The red triangles depict the CE of the index created with all the available data._
+
+### Region
+
+CE’s of all the Inland indices were greater than or equal to 70.0% (Table K-2 and Figure K-2ab). The family- and genus-level Coast indices had CE’s greater than 70.0% but the order-level index CE was just below this threshold (CE = 69.5%). Genus-level indices for both regions provided the greatest CE values but the CE’s of all three taxonomic tiers did not differ more than 6.0%. The Inland RMSE values associated with accuracy and precision did not differ greatly between the three taxonomic tiers. Coast RMSE values were lowest for the family-level index (Training RMSE = 1.5; Validation RMSE = 4.8). For both Regions, the BSP values did not differ more than 5.0% from the expected value of 50.0% and the RMSE values were all less than 2.0%.
+
+_Table K-2. A delete-d Jackknife procedure was used to measure the CE and BSP variability for each taxonomic tier at the regional scale. In addition, a delete-d Jackknife cross validation procedure was used to verify CE. The Original value represents the value calculated with all the available data. The Mean Simulated Value and RMSE are calculated during the five-hundred jackknife iterations._
+
+_Figure K-2a. For the regional indices, the precision of the Classification Efficiency (CE) measured for each taxonomic tier was estimated using a delete-d jackknife procedure. Blue circles represent the mean simulated CE of the training sets and the black bars represent the mean simulated CE ± RMSE calculated during the five-hundred delete-d jackknife iterations. The red triangles depict the CE of the index created with all the available data._
+
+_Figure K-2b. For the regional indices, the accuracy of the Classification Efficiency (CE) measured for each taxonomic tier was estimated using a delete-d jackknife cross validation procedure. Blue circles represent the mean simulated CE of the validation sets and the black bars represent the mean simulated CE ± RMSE calculated during the five-hundred delete-d jackknife cross validation iterations. The red triangles depict the CE of the index created with all the available data._
+
+### Bioregion
+
+The performance of the individual bioregion indices varied (Table K-3). At the order-level CE ranged from as low as 57.8% in NAPU and as high as 87.6% in LNP. NAPU also had the lowest CE at the family-level (70.4%) but UNP had the greatest CE (90.0%). The lowest CE for the genus-level was 72.7% in NAPU and the greatest CE was 89.4% in NRV. Despite the large range in CE at each taxonomic tier, the general trend indicated that as taxonomic resolution increased, CE increased but RMSE associated with precision and accuracy did not differ greatly (Table K-3 and Figure K-4). The average CE by taxonomic tier was 74.2% (order), 81.6% (family), and 83.3% (genus). Although on average the genus-level assessment provided the greatest CEs, there was not a large improvement in the average family-level CE. The greatest improvement in CE occurred between the order and family-level indices.
+
+The mean Training RMSE values did not differ by more than 0.1 and the mean Validation RMSE values did not differ by more than 0.8. Therefore, all indices have approximately equal variability associated with CE. The BSP was another value for which to measure precision of the indices. BSP values typically did not deviate drastically from the expected value of fifty and had RMSE values less than four (Table K-3). BLUE and MAC tended to have larger RMSE values associated with BSP than the other bioregions.
+
+_Table K-3. A delete-d Jackknife procedure was used to measure the CE and BSP variability for each taxonomic tier for the twelve bioregions in the Chesapeake Bay basin. In addition, a delete-d Jackknife cross validation procedure was used to verify CE. The Original value represents the value calculated with all the available data. The Mean Simulated Value and RMSE are calculated during the five-hundred jackknife iterations._
+
+_Table K-4. The mean CE of the bioregion indices and the associated mean RMSE values from the delete-d jackknife (Mean Training RMSE) and delete-d jackknife cross validation (Mean Validation RMSE) were calculated for each taxonomic tier._
+
+_Figure K-3. For the bioregion indices, the precision of the Classification Efficiency (CE) measured for each taxonomic tier was estimated using a delete-d jackknife procedure. Blue circles represent the mean simulated CE of the training sets and the black bars represent the mean simulated CE ± RMSE calculated during the five-hundred delete-d jackknife iterations. The red triangles depict the CE of the index created with all the available data._
+
+_Figure K-4. For the bioregion indices, the precision of the Classification Efficiency (CE) measured for each taxonomic tier was estimated using a delete-d jackknife cross validation procedure. Blue circles represent the mean simulated CE of the validation datasets and the black bars represent the mean simulated CE ± RMSE calculated during the five-hundred delete-d jackknife cross validation iterations. The red triangles depict the CE of the index created with all the available data._
+

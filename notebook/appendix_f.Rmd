@@ -1,0 +1,17 @@
+---
+title: "Appendix F: Abiotic Parameters for Evaluating Stream Environment"
+output: html_notebook
+---
+
+## Appendix F: Abiotic Parameters for Evaluating Stream Environment
+
+Classifying sampling events as Reference or Degraded in the Chesapeake Bay basin was limited to the abiotic parameters (i.e., habitat and water quality parameters) recorded while collecting benthic macroinvertebrates. To reduce variability in the indices, site classification was based on a standard set of frequently measured abiotic parameters. Parameters that were reported for more than 75% of sampling events were used during the site classification procedure.
+
+Twenty-four habitat parameters were reported in the Chessie BIBI data base (Table F-1). None of the habitat parameters were reported for all sampling events. Eight habitat parameters were used to classify sites during the Chessie BIBI analysis: (1) Epifaunal Substrate, (2) Bank Stability, (3) Embeddedness, (4) Channel Alteration, (5) Riffle/Run/Pool Ratio, (6) Flow, (7) Bank Vegetation, and (8) Sedimentation. The Velocity/Depth Ratio included some odd values outside of the 0-20 range and was omitted from analyses. It appears that the Riparian Vegetation Score and Riparian Vegetation Zone width may be two names for the same parameter. Combining these two parameters into a single Riparian value may be appropriate in future refienments of the Chessie BIBI. Velocity/Depth Ratio, Riparian Vegetation Score, and Riparian Vegetation Zone require further review and each of the agencies needs to be contacted to verify that measurements are collected using the same protocol. The remaining parameters were omitted from the analyses.
+
+_Table F-1. Twenty-four habitat parameters were reported for benthic macroinvertebrate sampling events in the Chesapeake Bay basin. The frequency for which a parameter was reported, was expressed as a percentage of all available sampling events._
+
+Seventy-eight water quality parameters were reported in the Chessie BIBI data base (Table F-2). None of the water quality parameters were reported for all sampling events. Three water quality parameters were used to classify sites: (1) specific conductivity, (2) pH, and (3) dissolved oxygen (DO) mg/L. Although temperature was the most frequently reported water quality parameter, it was excluded from the site classification procedure due to highly variable diel and monthly ranges. The remaining water quality parameters did not occur frequently enough to be used during index development. These results are similar to the results reported by Carter and Resh (2013) in their summary of US agency benthic macroinvertebrate monitoring protocols.
+
+_Table F-2. Seventy-eight water quality parameters were reported for benthic macroinvertebrate sampling events in the Chesapeake Bay basin. The frequency for which a parameter was reported, was expressed as a percentage of all available sampling events._
+

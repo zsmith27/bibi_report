@@ -1,0 +1,16 @@
+---
+title: "Environmental Data Preparation"
+output: html_notebook
+---
+
+## Environmental Data Preparation
+
+Environmental data collected with the macroinvertebrate samples were used to create a standardized gradient of environmental conditions from Reference (best quality available) to Degraded (poorest quality). Agencies and monitoring programs have different protocols for collecting in situ environmental data, so the variables needed to be standardized prior to index development.
+
+### Habitat
+
+Twenty-four habitat parameters are reported in the stream macroinvertebrate database (Appendix F). The EPA visual-based Rapid Bioassessment Protocol (Barbour et al. 1999) sought to standardize habitat measures for low and high gradient streams, however many monitoring programs modified these measures to suite their regulatory needs. Thus, only nine habitat parameters were measured consistently and frequently (i.e., more than 75% of sampling events) and none of these parameters were collected at all sampling locations. One parameter, the velocity/depth ratio, was excluded because it contained odd values outside of the 0-20 standard scale used to score other habitat parameters. Future analyses may benefit from excluding odd velocity/depth ratio measurements and including velocity/depth ratio as a habitat parameter. The eight remaining habitat parameters were bank stability, bank vegetation, channel alteration, embeddedness, epifaunal substrate, flow, riffle/run/pool ratio, and sedimentation. These eight habitat parameters were used in conjunction with water quality parameters to classify environmental condition.
+
+### Water Quality
+
+Seventy-eight water quality parameters are reported in the stream macroinvertebrate database (Appendix F). Only four were collected frequently (i.e., more than 75% of the sampling events): temperature, specific conductivity, pH, and dissolved oxygen. Temperature was not included in the site classification process because the diel and monthly range can vary drastically. The remaining three water quality parameters were used to classify environmental condition. 

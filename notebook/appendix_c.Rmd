@@ -1,0 +1,26 @@
+---
+title: "Appendix C: Taxonomic Standardization"
+output: html_notebook
+---
+
+## Appendix C: Taxonomic Standardization
+
+The Chessie BIBI database was composed of data from twenty-nine agencies/programs that have sampled in the Chesapeake Bay watershed between 1992 and 2015. Study protocols were generally similar among agencies/programs. However, it was difficult to discern standard identification protocols. Some agencies/programs state that macroinvertebrates are identified to the genus-level or the lowest taxonomic resolution possible, but don’t indicate what was the lowest taxonomic resolution. Many agencies/programs also have specific taxa that they choose to exclude from analysis and specific groups of taxa that they identify at a coarser level than the standard taxonomic resolution (e.g., genus-level). Developing indices on data that have inherently different taxonomic assemblages has the potential to reduce index performance and identify agency/program differences rather than differences in stream condition. Therefore, the taxa were aggregated at the phylum, subphylum, and class taxonomic levels to evaluate potential differences in identification protocols. The percentage of samples where the taxon was present was used as an indication of potential identification differences (Table C-1). Additionally, the relative abundance of a taxon was calculated using only the samples for which the taxon was present (Table C-2). This assessment provides an indication of the rarity of the individual as well as the frequency of a given level of taxonomic identification. The presence of the taxon and relative abundance of the taxon when present were used to establish a taxa exclusion list. Including taxa only identified by a certain agency/program(s) creates bias, and the best available option was to exclude these taxa from development of the index. Taxa exclusions are stated in the Methods section of the report.
+
+Taxa were also evaluated for taxonomic “roll-ups” at the order- and family-levels. The percent change in taxonomic count (Equation C-1) was calculated for the order-level relative to the class-level (Table C-3) and the family-level relative to the order-level (Table C-4).
+
+_Equation C-1._
+
+    Where:
+    a = the taxonomic count at the lower taxonomic resolution
+    b = the taxonomic count at the higher taxonomic resolution
+
+Often agencies/programs identify most insects to the family- or genus-level but taxa like Oligochaeta are not identified beyond the class-level in many instances. If these taxa are not rolled-up to a more common level of identification, agency/program bias may skew results. For example, samples collected by agencies/programs that identify Oligoachaeta taxa to the genus-level will have greater richness/diversity measures and taxonomic attributes/traits will be more accurately assigned. The taxonomic “roll-up” protocol is outlined in the Methods section of the report.
+
+_Table C-1. The number of samples that contained the indicated taxon was reported as “Taxon Presence.” Taxon Presence and the total number of samples were used to calculate the percentage of samples containing the taxon of interest. The bold taxanomic names signify the taxa that were retained during the analyses._
+
+_Table C-2. For each taxon, samples were subset to represent only the samples containing the specified taxon. The mean relative abundance of the taxon was measured for the subset of samples. The bold taxanomic names signify the taxa that were retained during the analyses._
+
+_Table C-3. The count of taxa identified at the class-level were compared to the counts identified at the order-level. The “Difference” column indicates the difference in the taxonomic counts between the two taxonomic ranks. The bold taxonomic names identify taxa that were all aggregated to the class-level._
+
+_Table C-4. The count of taxa identified at the order-level were compared to the counts identified at the family-level. The “Difference” column indicates the difference in the taxonomic counts between the two taxonomic ranks. The bold taxonomic names identify taxa that were all aggregated to the order-level._

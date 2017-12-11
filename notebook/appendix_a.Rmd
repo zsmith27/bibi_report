@@ -1,0 +1,10 @@
+---
+title: "Appendix A: Taxonomic Classification"
+output: html_notebook
+---
+
+## Appendix A: Taxonomic Classification
+
+All taxa reported in Chessie BIBI database were assigned the appropriate Phylum, Subphylum, Class, Subclass, Order, Suborder, Family, Subfamily, Tribe, and Genus when applicable. A portion of the taxa reported were reported under an invalid name according to the ITIS database. These taxa were subsequently changed to the taxonomic name deemed valid by ITIS.
+
+_Table A-1. The taxonomic hierarchy of stream macroinvertebrate taxa included in the Chesapeake Bay non-tidal database._

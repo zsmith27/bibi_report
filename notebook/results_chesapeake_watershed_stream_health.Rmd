@@ -1,0 +1,20 @@
+---
+title: "Chesapeake Watershed Stream Health"
+output: html_notebook
+---
+
+## Chesapeake Watershed Stream Health
+
+A simple count of the narrative ratings in the Chesapeake Bay watershed indicates biological integrity is Very Poor or Poor at 49.5% of sampling sites and Fair, Good, or Excellent at 50.5% of sites in the entire, updated database (1992 – 2015). These straightforward counts are misleading because some areas—especially urban ones around Washington, D.C.—are more frequently sampled than others in the Chesapeake Bay watershed. To avoid this spatial bias, station ratings of the available data were weighted by the proportion of their local subwatershed (i.e., HUC12) area they represent, and the weighted ratings summed to bioregion or region (II. N. Area-Weighting of Rating Results).
+
+The area-weighted station ratings were mapped by HUC12 units to visually examine and evaluate the spatial distributions of the rating results of the various indices (Appendix L). The three taxonomic versions of the Chesapeake-wide index indiscriminately rate the entire Coast region and broad swaths of urban and suburban lands as Poor or Very Poor despite a substantial number of identified Reference sites and several relatively undisturbed HUC12 watersheds in these areas (Figures L-3, L-4, and L-5). The region and bioregion indices were, to varying degrees, better able to identify disturbed and undisturbed areas (Figures L-6 to L-11).
+
+We noted discrepancies in the Coast’s MAC bioregion that were consistent with the relatively large rating disagreements between and within the region and bioregion indices (Table 20). The MAC bioregion was rated as a mix of Good, Fair, and Poor by the family-level version of the Coast region index (Figure L-7), Good by the genus-level version of the Coast region index (Figure L-8), mostly Poor by the family-level version of the MAC bioregion index (Figure L-10), and mostly Fair by the genus-level version of the MAC bioregion index (L-11). Rating discrepancies are also apparent in the Inland region’s CA and NAPU bioregions, but are not as striking as in MAC.
+
+Area-weighting index ratings by HUC12 area removes a bias created by the uneven spatial distribution of sampling stations. The weighted ratings for Excellent, Good, Fair, Poor, and Very Poor can then be aggregated to estimate the percentages of each in the selected spatial scale. Figure 16 shows the proportions of the area-weighted ratings for the family-level Chesapeake-wide index, the family-level Coast and Inland indices, and the twelve family-level bioregion indices. The region and bioregion results can be further aggregated at the basin-level to compare results of the three index types on the whole Chesapeake Bay watershed (Figure 17).
+
+_Figure 16. Area-weighted percentages of the five narrative ratings derived with the family-level versions of the Chesapeake-wide index (i.e., Basin), the two region indices (i.e., Coast and Inland), and the twelve bioregion indices (i.e., CA, NAPU, NCA, NRV, UNP, BLUE, LNP, PIED, SGV, SEP, and MAC)._
+
+_Figure 17. Area-weighted percentages of the five ratings derived with the family-level versions of the Chesapeake-wide, Region, and Bioregion indices and rolled up to the Chesapeake watershed scale. The data is plot using two graphing techniques (i.e., A. pie charts and B. stacked bar plots) to aid in visual interpretation of the results._
+
+The relative insensitivity of the Chesapeake-wide index to the complex topography and hydrology of the Chesapeake watershed is evident in the Figure 17 comparison, where that index scores substantially more of the watershed as Very Poor. Results of the region and bioregion indices are more comparable, with 39.5% and 37.2% scoring Poor or Very Poor, respectively.

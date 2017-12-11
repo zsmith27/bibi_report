@@ -1,0 +1,28 @@
+---
+title: "Appendix B: Taxonomic Attributes"
+output: html_notebook
+---
+
+## Appendix B: Taxonomic Attributes
+
+An effort was made to assign each taxon reported in the Chessie BIBI database a Functional Feeding Group (FFG), Habit, Tolerance Value (TV), Beck Class, and Modified Average Score Per Taxon (ASPT) value from the literature (Barbour et al. 1999, USEPA 2008, 2012, Chalfant 2009, Bollman et al. 2010, Buchanan et al. 2011, WVDEP 2015, Smith 2016). Taxa with multiple attributes/traits were assigned a single attribute/trait based on the most frequently assigned attribute/trait or best professional judgement. However, many of the taxa were not assigned one or more taxonomic attributes/traits because they have not been described for the taxon or the assigned attributes/traits were not found during our literature search (Table B-1, Table B-2, Table B-3, and Table B-4).
+
+### Tolerance Values
+
+Seven sources provided Tolerance Values (TV) that were applicable for benthic macroinvertebrates in the Chesapeake Bay basin (Table B-1). Table B-1 indicates the percentage of taxa assigned a TV at the Order, Family, and Genus-levels. Many of the independent sources poorly represented the taxa observed in the Chesapeake Bay basin. However, when the sources were combined 78% of families and 89% of genera were assigned tolerance values. Only 35% of order level taxa were assigned TV. TV at the order-level were under-represented, and therefore, metrics utilizing TV were not assessed during the development of order-level indices.
+
+_Table B-1. Tolerance Values (TV) were summarized and assigned from seven sources. The percentage of Order, Family, and Genus-level taxa assigned a TV was calculated for each source. The final row represents the percentage of taxa assigned a TV after summarizing the assignments from the seven available sources._
+
+### Functional Feeding Groups
+
+Functional Feeding Groups (FFG) were assigned from six sources (Table B-2). The percentage of taxa assigned a FFG was calculated for order, family, and genus-level benthic macroinvertebrates. Combining the FFG assignments from six sources increased the number of benthic macroinvertebrate taxa with an assigned FFG (family = 77% and genus = 92%). However, only 54% of order-level taxa were assigned a FFG. Like the TV results, FFG metrics were considered under-represented, and therefore, were not assessed during the development of order-level indices.
+
+_Table B-2. Functional Feeding Groups (FFG) were summarized and assigned from six sources. The percentage of Order, Family, and Genus-level taxa assigned a FFG was calculated for each source. The final row represents the percentage of taxa assigned a FFG after summarizing the assignments from the six available sources._
+
+### Habits
+
+Five sources were used to assign benthic macroinvertebrate Habits to taxa found in the Chesapeake Bay basin (Table B-3). Combining the Habit assignments from several sources increased the percentage of family-level taxa (65%) and genus-level taxa (84%) assigned Habit traits. In relation to TV and FFG, the percentage of families assigned a Habit was low. Habit metrics were used during the development of family-level indices but may have provided skewed results. Only 24% of the order-level taxa identified in the basin could be assigned a Habit. Therefore, Habit metrics were not utilized during the development of order-level indices.
+
+_Table B-3. Habits were summarized and assigned from five sources. The percentage of Order, Family, and Genus-level taxa assigned a Habit was calculated for each source. The final row represents the percentage of taxa assigned a Habit after summarizing the assignments from the five available sources._
+
+_Table B-4. Taxonomic attributes and traits assigned to each of the taxa reported in the Chesapeake Bay basin._

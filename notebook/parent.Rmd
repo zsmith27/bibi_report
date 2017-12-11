@@ -1,0 +1,153 @@
+---
+title: Refinement of the Basin-Wide Index of Biotic Integrity for Non-Tidal Streams
+  and Wadeable Rivers in the Chesapeake Bay Watershed
+author: "Zachary M. Smith, Claire Buchanan, and Andrea Nagel"
+output:
+  html_notebook:
+  html_document:
+    df_print: paged
+---
+
+```{r title, child = 'title_page.Rmd'}
+```
+
+```{r preface, child = 'preface.Rmd'}
+```
+
+```{r executive_summary, child = 'executive_summary.Rmd'}
+```
+
+```{r acknowledgements, child = 'acknowledgements.Rmd'}
+```
+
+```{r introduction, child = 'introduction.Rmd'}
+```
+
+# Methods
+
+```{r methods_data_sources, child = 'methods_data_sources.Rmd'}
+```
+
+```{r methods_taxa_standardization, child = 'methods_taxa_standardization.Rmd'}
+```
+
+```{r methods_environmental_data_preparation, child = 'methods_environmental_data_preparation.Rmd'}
+```
+
+```{r methods_environmental_condition_classification, child = 'methods_environmental_condiction_classification.Rmd'}
+```
+
+```{r methods_environmental_condition_classification, child = 'methods_spatial_classification.Rmd'}
+```
+
+```{r methods_metric_testing, child = 'methods_metric_testing.Rmd'}
+```
+
+```{r methods_metric_scoring_approach, child = 'methods_metric_scoring_approach.Rmd'}
+```
+
+```{r methods_index_construction, child = 'methods_index_construction.Rmd'}
+```
+
+```{r methods_index_classification_efficiency, child = 'methods_index_classification_efficiency.Rmd'}
+```
+
+```{r methods_taxonomic_tiers, child = 'methods_taxonomic_tiers.Rmd'}
+```
+
+```{r methods_delete_d_jackknife_validation, child = 'methods_delete_d_jackknife_validation.Rmd'}
+```
+
+```{r methods_delete_d_jackknife_precision, child = 'methods_delete_d_jackknife_precision.Rmd'}
+```
+
+```{r methods_narrative_rating_categories, child = 'methods_narrative_rating_categories.Rmd'}
+```
+
+```{r methods_area_weighting_of_rating_results, child = 'methods_area_weighting_of_rating_results.Rmd'}
+```
+
+# Results
+
+```{r results_index_construction, child = 'results_index_construction.Rmd'}
+```
+
+```{r results_chesapeake_wide_index, child = 'results_chesapeake_wide_index.Rmd'}
+```
+
+```{r results_two_region_indices, child = 'results_two_region_indices.Rmd'}
+```
+
+```{r results_bioregion_indices, child = 'results_bioregion_indices.Rmd'}
+```
+
+```{r results_index_validation_and_precision, child = 'results_index_validation_and_precision.Rmd'}
+```
+
+```{r results_narrative_ratings, child = 'results_narrative_ratings.Rmd'}
+```
+
+```{r results_chesapeake_watershed_stream_health, child = 'results_chesapeake_watershed_stream_health.Rmd'}
+```
+
+# Discussion
+
+```{r discussion, child = 'discussion.Rmd'}
+```
+
+# Conclusions and Recommendations
+
+```{r discussion, child = 'discussion.Rmd'}
+```
+
+# Citations
+
+# Appendicies
+
+```{r appendix_a, child = 'appendix_a.Rmd'}
+```
+
+```{r appendix_b, child = 'appendix_b.Rmd'}
+```
+
+```{r appendix_c, child = 'appendix_c.Rmd'}
+```
+
+```{r appendix_d, child = 'appendix_d.Rmd'}
+```
+
+```{r appendix_e, child = 'appendix_e.Rmd'}
+```
+
+```{r appendix_f, child = 'appendix_f.Rmd'}
+```
+
+```{r appendix_g, child = 'appendix_g.Rmd'}
+```
+
+```{r appendix_h, child = 'appendix_h.Rmd'}
+```
+
+```{r appendix_i, child = 'appendix_i.Rmd'}
+```
+
+```{r appendix_j, child = 'appendix_j.Rmd'}
+```
+
+```{r appendix_k, child = 'appendix_k.Rmd'}
+```
+
+```{r appendix_l, child = 'appendix_l.Rmd'}
+```
+
+```{r appendix_m, child = 'appendix_m.Rmd'}
+```
+
+# Appendix Citations
+
+
+
+
+
+
+

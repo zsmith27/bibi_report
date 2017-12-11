@@ -1,0 +1,12 @@
+---
+title: "Chesapeake-Wide Index"
+output: html_notebook
+---
+
+## Chesapeake-Wide Index
+
+Following the iterative process outlined in II. H. Index Construction, Chesapeake-wide indices were developed for the three taxonomic resolutions. Each taxonomic version of the index had relatively high classification efficiencies (CEs): 81.5% for order-level, 84.9% for family-level, and 85.0% for genus-level (Table K-2). Five, six, and six metrics were included in the order-, family-, and genus-level versions, respectively. The most frequently selected metrics (Table 6) were used to build the index. Despite efforts to minimize spatial bias, reference sampling events, on the Inland side of the watershed, had an uneven influence in shaping the index because the number of Reference and Degraded sampling events in the Inland region were 4.4 times more numerous than in the Coast region (Table 7). We concluded this spatial resolution was biased and misrepresented the Coast region; therefore, this index was not evaluated further.
+
+_Table 6. Metrics included in the order-, family-, and genus-level versions of the single Chesapeake-wide index._
+
+_Table 7. Macroinvertebrate sample numbers in the Coast and Inland environmental condition categories (and percent of the Region’s total sample number)._

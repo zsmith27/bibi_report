@@ -1,0 +1,8 @@
+---
+title: "Taxonomic Tiers"
+output: html_notebook
+---
+
+## Taxonomic Tiers
+
+Benthic macroinvertebrate indices of biotic integrity are typically developed for a single taxonomic resolution (e.g., family-level). However, this limits the accessibility and/or applicability of these indices to some monitoring programs that operate within the Chesapeake Bay basin. Order-, family-, and genus-level indices were created for the basin-wide index, the two region indices (Inland and Coast) and each of the twelve bioregions. The order-level provides a coarse assessment but can be easily used by volunteer groups or programs with limited funding and/or little experience identifying macroinvertebrates. Metrics that required assigned taxonomic attributes (e.g., FFG, habit, and tolerance value metrics) were excluded from the order-level analysis. The family-level indices will be applicable to monitoring programs with moderate amounts of funding and experience identifying macroinvertebrates. The genus-level index is appropriate for monitoring programs with staff certified in taxonomic identification. For all indices, we required a minimum of 90% of taxa to be identified to the corresponding taxonomic resolution. We did this because samples which include taxa identified to a resolution lower than specified index resolution are susceptible to under-representation in richness and diversity metrics and overly coarse taxonomic attribute assignments.

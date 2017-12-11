@@ -1,0 +1,10 @@
+---
+title: "Data Sources"
+output: html_notebook
+---
+
+## Data Sources
+
+In a series of data calls between 2007 and 2015, stream macroinvertebrate data and associated water quality and in-stream variables were obtained from twenty-nine federal, state, county, and non-profit agencies/programs that collect samples within the Chesapeake Bay basin (Table 1). A total of 25,067 samples collected with various methods between 1989 and 2015 have been incorporated into a common database. The elements and relationships of the common database are described in detail in Johnson (2013). Modifications made recently in the course of updating the database are described in Nagel (2016).
+
+Table 1. Twenty-nine federal, state, and non-profit agencies/programs contributed to the Chessie BIBI database. The total count represents the number of unique sampling events contributed by the agency/program. A subset of the total count was used in the analysis.

@@ -1,0 +1,39 @@
+---
+title: "Appendix D: Rarefaction"
+output: html_notebook
+---
+
+## Appendix D: Rarefaction
+
+The number of organisms identified and counted per sample differs among the agencies/programs who contributed data to the Chessie BIBI database. Some agencies count 100 individuals while others count more (e.g., 200, 400). A positive relationship exists between the probability of finding a new taxon and the number of individuals counted (Figure 1). This relationship influences important metrics such as taxa richness and diversity indices (Buchanan et al. 2011). The agency with a greater standard count will typically have higher estimates of richness and a better representation of rare taxa.
+
+Rarefaction is used to overcome the bias associated with taxa richness and diversity metrics created by different counting protocols. Rarefaction randomly selects a prescribed number of individuals (e.g., 100 or 200) without replacement from a sample’s larger raw count to create a rarified sample. The vegan package in R provides several useful rarefaction functions (Oksanen et al. 2016). The function rarefy provides a mean taxa richness value for the rarified sample (Equation D-1; Hurlbert 1971) and the error associated with that value (Equation D-2; Heck Jr et al. 1975).
+
+_Equation D-1._
+
+_Equation D-2._
+
+    Where:
+    S = the number of species in the original sample
+    Ni = the number of individuals in the ith species
+    N = the total number of individuals in the original sample
+    n = the number of individuals in the rarefied sample (i.e., the subsample size)
+
+Mean taxa richness is the average number of taxa (richness) that can be expected in the rarified sample for a prescribed total count. Another function in the vegan package, rrarefy, creates a taxonomic assemblage for a rarefied sample by randomly selecting taxa without replacement from the original sample (Oksanen et al. 2016). The rarefied assemblage can then be used as raw counts to calculate unbiased richness and diversity metrics associated with the standard rarified count.
+
+Due to the random selection without replacement process, each iteration of the rrarefy function will, typically, produce a different combination of taxa (assemblage). However, the selection is not truly random (i.e., simple random sample). Although each individual from the original sample has an equal probability of being selected, the majority of taxa have differing probabilities of being selected (unless the sample is 100% even). Therefore, the taxon that makes up the greatest proportion of the original sample has the highest probability of being selected during the rarefaction process.
+
+Hurlbert’s (1971) method factors in the abundance of each taxon and provides the best estimate of species richness. Simberloff (1972) developed an iterative rarefaction process, using Sanders (1968) formula, to calculate the mean richness value in a rarefied sample. Tipper (1979) found that Simberloff’s (1972) iterative process was equivalent to Hurlbert’s (1971) equation (Equation D-1). Equation D-1 is an estimate of the expected number of species in a sample of size n. Therefore, the abundance of each taxon in a rarefied subsample should also represent the estimated abundance of the taxon, and not simply a random draw without replacement.
+
+The proportion each taxon composes of the original sample is known prior to performing rarefaction. Repeatedly sampling the assemblage without replacement will form a hypergeometric distribution. Using Equation D-3 the mean abundance of each taxon can be estimated for a rarefied sample of size n.
+
+_Equation D-3._
+
+    Where:
+    k = the number of individuals identified as the taxon of interest
+    n = rarefaction sample size
+    N = number of individuals in the orginal sample
+
+Equation 3 finds the proportion that each taxon makes up of the original sample and applies the proportion to a smaller sample size. The values are rounded to the nearest integer and a sum of all the taxa will be approximately n. A sample’s raw counts were sorted in descending order and the estimated richness value (Equation D-1) was used as a threshold for selecting the most abundant taxa. Estimated rarified richness provides the number of taxa that would be expected from a rarefied sample and the most abundant taxa have the highest probability of representing the taxa in the rarified sample. We refer to this method of rarefaction as “probabilistic rarefaction” to avoid confusion with the standard rarefaction method.
+
+In some cases, the original sample’s taxonomic list cannot be easily sampled because several taxa near the estimated mean rarefied richness cutoff have the same raw count. When identical raw counts occur, a random selection without replacement was applied to the affected taxa to avoid bias when determining the mean taxa richness value. Taxa with the same count values are usually singletons (represented by one individual) or doubletons (represented by two individuals). Therefore, the variability produced by the final, random selection step has minimal influence on most metrics. Richness metrics for a specific taxon or taxa may be more influenced by this variability (e.g., EPT richness, Diptera richness, Collector richness). During preliminary index development, the random selection of rare taxa (singletons and doubletons) did influence metric redundancy, range, variability, and sensitivity despite the reduction in variability provided by the probabilistic rarefaction methodology. For example, if there are ten singletons and we only need to choose two taxa to represent the rarefied count the composition of the resulting assemblage may be very different with each probabilistic rarefaction iteration. One iteration may include two Ephemeroptera taxa and the next may not include any Ephemeroptera taxa consequently influencing the richness of Ephemeroptera in the sample. Ultimately, probabilistic rarefaction of richness/diversity metrics influenced the metrics composing the final index. Although this remains an issue for probabilistic rarefaction, the variability in assemblage composition has been drastically reduced relative to the standard rarefaction method.

@@ -1,0 +1,10 @@
+---
+title: "Index Validation and Precision"
+output: html_notebook
+---
+
+## Index Validation and Precision
+
+Validation and precision tests on the various indices are described in Appendix K. The Chesapeake-wide and region indices had similar RMSE values at all three taxonomic resolutions (i.e., delete-d jackknife Cross Validation RMSE). The family-level was the preferred choice because its CE value was high (≥ 70%) and the family-level CE was generally greater than or comparable to the genus-level CE.
+
+In general, the average RMSE associated with the bioregion index performance did not differ greatly among the three taxonomic resolutions (Table K-4). The average CE increased as taxonomic resolution increased from the order- to genus-level. Eight of the twelve bioregions (i.e., BLUE, CA, MAC, NAPU, NCA, NRV, PIED, and SEP) had higher CE at the Genus-level compared to the Family-level. However, the CE improvement from the family to the genus-level was minor (𝑥̅=1.7%), while the CE improvement from the order- to the family-level was larger (𝑥̅=7.4%). Overall, genus-level indices did not provide substantial improvement over the family-level indices.

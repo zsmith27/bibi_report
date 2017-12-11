@@ -1,0 +1,23 @@
+---
+title: "Delete-d Jackknife Precision"
+output: html_notebook
+---
+
+## Delete-d Jackknife Precision
+
+After the final index had been established, a threshold was calculated to find the Best Separation Point (BSP) between the Reference and Degraded distributions using the BDE equation (Equation 3). A Delete-d Jackknife was used to measure variation of the BSP and the associated CE. The indices were constructed using all the available data and will be referred to as the original indices. To assess precision, the metrics selected for the original index were used to iteratively create new indices based on subsets of the available data. Twenty-five percent of the Reference population and 25% of the Degraded population were randomly removed to create each unique subset. During each iteration, the metrics were scored and used to create a new index. The process was repeated five-hundred times. RMSE (Shao 1989) was calculated for the BSP and CE of the five-hundred iterations. The RMSE indicated the variability associated with the measures of interest (Equation 8). Shao (1989) provided the Mean Square Error (MSE) formula for a delete-d jackknife and the square root of this formula was used to calculate RMSE.
+
+_Equation 8._
+
+    Where:
+    n = the number of reference samples.
+    d = the number of reference samples removed for each iteration.
+    N = the number of iterations.
+    𝜃̂(𝑖) = the estimated threshold or CE for each iteration.
+    𝜃̂(.) = the mean estimated threshold or CE from i iterations.
+
+Delete-d Jackknife was used to test the precision of the BSP and CE. This was not a CV procedure because a validation dataset (i.e., an independent dataset) was not utilized during the assessment. Five-hundred subsets of the data (i.e., training dataset) were used to provide an estimate of precision.
+
+The scoring thresholds are determined by the data used to construct the index. Therefore, different datasets from the same geographic area would be expected to generate different scoring thresholds. The variability associated with the scoring thresholds attests to the robustness of the metrics. Low variability suggests that the scoring thresholds are repeatable and most likely
+
+indicative of stream condition; however, high variability suggests that the scoring thresholds reflect random noise in the data and may not be robust measures of stream condition. Estimating precision of the indices BSPs and CEs provided a measure for which we could judge index performance.

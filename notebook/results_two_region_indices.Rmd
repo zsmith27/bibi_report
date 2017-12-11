@@ -1,0 +1,34 @@
+---
+title: "Two Region Indices"
+output: html_notebook
+---
+
+## Two Region Indices
+
+Reference and Degraded samples are unevenly distributed across the Inland and Coast region. The Inland region has ten bioregions and over half of its Reference samples are in the LNP, NCA, and SRV bioregions. The Coast has two bioregions and about two-thirds of Reference samples are in SEP. The uneven distributions of Reference sampling events give the few well sampled areas more influence in shaping each region’s index. This inherent bias again was minimized by randomly selecting 50 Reference and 50 Degraded sampling events from each bioregion in a region before implementing the 50 index development iterations to select metrics and scoring thresholds for the region.
+
+### Order-Level Indices
+
+Both order-level regional indices consisted of three composition metrics, one richness/diversity metric, and one tolerance metric (Table 8). Overall, the mean metric BDE was 64.8% and ranged from 55.6% to 78.0%. The Coast BSP was 53.0; the Inland BSP, 54.0 (Table K-2). The Inland index CE was 77.6%; the Coast index, 69.5%. Figure 7 shows declining trends in index scores as degradation increases.
+
+_Table 8. Metrics included in the Coast and Inland order-level indices._
+
+_Figure 7. Distributions of index scores for the Coast and Inland order-level indices. The whisker lengths are designated by the interquartile range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+### Family-Level Indices
+
+Both regional indices included at least one metric from the five metric classes (Table 9). Ten metrics were included in the Coast index and nine metrics were included in the Inland index. The mean metric BDE for both regions was 73.0%. The Inland metric BDEs ranged from 59.5% - 84.0%, and the Coast metric BDEs ranged from 63.5% - 81.0%. The Inland index CE was 82.4%; the Coast, 72.3% (Table K-2). The Inland and the Coast BSPs were 53.0, which did not differ greatly from the expected value of 50.0. Figure 8 shows declining trends in index scores as degradation increases.
+
+_Table 9. Metrics included in the Coast and Inland family-level indices and the associated scoring thresholds._
+
+_Figure 8. Distributions of index scores for the Coast and Inland family-level indices. The whisker lengths are designated by the interquartile range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+### Genus-Level Indices
+
+The Reference and Degraded sample sizes remained about the same in the Coast region after removing samples that did not meet the minimum taxonomic resolution requirements for a genus-level index. They were somewhat lower in the Inland region but still sufficient for index development (Table 10). For both indices, at least one metric was selected to represent each of the five metric classes (Table 11). The metric BDEs in the Coast region ranged from 51.6% to 79.0% while BDEs in the Inland region ranged from 63.9% to 79.7%. Overall, the mean BDE for both regions was 67.3%. The Inland index CE was 82.6%; the Coast index, 74.6% (Table K-2). The BSP values for both indices did not differ much from the expected BSP value of 50.0 (Coast BSP = 55.0, Inland BSP = 50.0). Figure 9 depicts a declining trend in the index scores with increasing degradation.
+
+_Table 10. Sample numbers in the Coast and Inland region site classes that met the genus-level index requirements._
+
+_Table 11. Metrics included in the Coast and Inland genus-level indices._
+
+_Figure 9. Distributions of index scores for the Coast and Inland genus-level indices. The whisker lengths are designated by the interquartile range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._

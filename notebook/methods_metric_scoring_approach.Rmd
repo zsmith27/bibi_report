@@ -1,0 +1,30 @@
+---
+title: "Metric Scoring Approach"
+output: html_notebook
+---
+
+## Metric Scoring Approach
+
+Metrics are often scored using a continuous range between two thresholds that represent “floor” and “ceiling” values (Minns et al. 1994, Hughes et al. 1998, Blocksom 2003, Pond et al. 2011). Buchanan et al. (2011) developed a scoring approach that relied on finding the Best Separation Point (BSP) between the Reference and Degraded distributions. They used the BSP and the median of the Reference distribution as the “floor” and “ceiling,” respectively, for the scoring gradient. Metric values between the BSP and Reference median thresholds were scored on a continuous gradient ranging from 0 - 100; values outside the range were scored 0 or 100, depending on the direction of change with disturbance. The range between the BSP and Reference median was often small, with few metric values falling on the gradient, and many of metrics scored in a binary (i.e., 0 or 100) rather than a continuous (i.e., 0 - 100) manner.
+
+The Buchanan et al. (2011) scoring approach was modified in this report to expand the range of values that could be scored on the continuous gradient. The BSP was established as the midpoint (i.e., 50) of the continuous gradient and the Reference median (XM) was established as the ceiling (i.e., 100). Metrics that decrease with disturbance received a score of 100 if the metric value was greater than or equal to the XM threshold (Figure 5A). Metrics that increase with disturbance received a score of 100 if the metric value was less than or equal to the XM threshold (Figure 5B). To identify the floor of the continuous gradient (XT) for metrics that decrease with degradation, the difference between XM and the BSP (a) was subtracted from the BSP (Figure 5A). Metric values less than the value of XT received a score of zero. For metrics that increase with degradation, the floor (XT’) was established by adding a to the BSP (Figure 5B). Metric values greater than the value of XT’ received a score of zero. On rare occasions, the calculated values of the thresholds XT and XT’ for percentage metrics were less than 0% or greater than 100%, respectively. Since percentage metrics of a sample cannot fall below 0% or exceed 100%, the metric values of these thresholds were adjusted to 0 or 100, respectively.
+
+_Figure 5. Metric scoring procedure. For metric values that decrease with degradation (Figure 5A), the Reference median (XM) is the ceiling and XT is the floor of the 0 – 100 point gradient. Values greater than XM receive a score of 100; values less than XT receive a score of 0; values in-between XM and XT are scored proportionally. For metric values that increase with degradation (Figure 5B), the Reference median (XM) is the ceiling and XT’ is the floor of the 0 – 100 point gradient. Values less than XM receive a score of 100; values greater than XT receive a score of 0; values in-between XM and XT’ are scored proportionally. BSP, Best Separation Point between Reference and Degraded metric values._
+
+Metric values falling between the floor and ceiling thresholds were scored proportionally to the range of values between the thresholds. Equation 5 and Equation 6 were used for metrics that decrease with disturbance and metrics that increase with disturbance, respectively:
+
+_Equation 5._
+
+    Where:
+    X = the metric value._
+    XT = the lower threshold (i.e. floor).
+    XM = the upper threshold (i.e. ceiling).
+
+_Equation 6._
+
+    Where:
+    X = the metric value.
+    XT’ = the upper threshold (i.e. ceiling).
+    XM = the lower threshold (i.e. floor).
+
+

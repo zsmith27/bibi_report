@@ -1,0 +1,40 @@
+---
+title: "Appendix L: Narrative Ratings and Maps of Index Scores"
+output: html_notebook
+---
+
+## Appendix L: Narrative Ratings and Maps of Index Scores
+
+Table 5 in the report provide the numeric values of the rating thresholds for the order-, family-, and genus-level versions of the Chesapeake-wide, region, and bioregion indices, respectively. These thresholds are used to assign narrative ratings to numeric scores of the benthic macroinvertebrate indices. Report section II. N. Area-Weighting of Rating Results describes the procedure for area-weighting the narrative rating results. The HUC12 area information needed to calculate the factors used in area-weighting each station rating is provided in Table H-3 and in the Excel file <Chesapeake_HUC12_Areas.xlsx>.
+
+The stacked bar plots in Figures L-1 and L-2 were generated for the family- and genus-level versions of the index rating scheme to illustrate the ranges of the actual index scores for each rating. Figures L-3  L-11 are maps of the Chesapeake Bay basin representing the area-weighted results of each of the nine ratings schemes (3 taxonomic tiers x 3 spatial scales). The rating maps can be visually compared to the 2006 map of the National Land Cover Data shown in Figure L-12 (Fry et al. 2011). National Land Cover Data in the Chesapeake Bay basin was aggregated into seven land-use classes. The land use data are an independent source of environmental conditions within the basin. Two HUC12 land use characteristics (percentages of forest and urban land cover) can significantly affect stream quality. Correlations between these land uses and the habitat/water quality parameters used to establish stream condition categories were evaluated using Spearman Correlation (Table L-1).
+
+To create the maps, station scores were first averaged by high resolution catchments (“Retrieved [03/15/2017], from the ecosheds product downloads, http://ecosheds.org/assets/nhdhrd/v2/” n.d.). This reduces the potential of spatial autocorrelation caused by stations with different names that are essentially at the same location. If less than three catchments are scored in a HUC12, the average score of each catchment is represented as a dot on the maps. If three or more catchments are scored in a HUC12, then the averaged catchment scores were again averaged together to represent a single score for that HUC12. HUC12 scores were rated according to the thresholds provided in Table 5. Any score equal to a rating threshold was assigned to the better of the two ratings. Catchment ratings were area-weighted by HUC12 before percentages of the five ratings were calculated for the bioregion, region, and Chesapeake-wide spatial scales. If a HUC12 overlapped a region or bioregion boundary, it’s area is apportioned to each of it’s component regions or bioregions.
+
+_Figure L-1. The ranges of the Chessie BIBI index scores representing each of the five rating categories are shown as stacked bars for the three taxonomic versions of the Coast and Inland regional indices. The “MEAN” bars represent the range of the categories based on the average rating thresholds of the regional indices._
+
+_Figure L-2. The ranges of the Chessie BIBI index scores representing each of the five rating categories are shown as stacked bars for the three taxonomic versions of the bioregion indices. The “MEAN” bars represent the range of the categories based on the average rating thresholds of the regional indices. CA, Central Appalachians; NAPU, Northern Appalachian Plateau & Uplands; NCA, North Central Appalachians; NRV, Northern Ridge & Valley; UNP, Upper Northern Piedmont; BLUE, Blue Ridge; LNP, Lower Northern Piedmont; PIED, Piedmont; SGV, Southern Great Valley; SRV, Southern Ridge & Valley; SEP, Southeastern Plains; MAC, Mid-Atlantic Coast._
+
+_Figure L-3. Order-level Chesapeake-wide index scores aggregated by HUC12. Use of this version of the index is not recommended._
+
+_Figure L-4. Family-level Chesapeake-wide index scores aggregated by HUC12. Use of this version of the index is not recommended._
+
+_Figure L-5. Genus-level Chesapeake-wide index scores aggregated by HUC12. Use of this version of the index is not recommended._
+
+_Figure L-6. Order-level region index scores aggregated by HUC12._
+
+_Figure L-7. Family-level region index scores aggregated by HUC12. (Also shown in the report’s Executive Summary.)_
+
+_Figure L-8. Genus-level region index scores aggregated by HUC12._
+
+_Figure L-9. Order-level bioregion index scores aggregated by HUC12._
+
+_Figure L-10. Family-level bioregion index scores aggregated by HUC12._
+
+_Figure L-11. Genus-level bioregion index scores aggregated by HUC12._
+
+_Figure L-12. National Land Cover Data from 2006 (Fry et al. 2011) was aggregated to represent 7 land-use classes in the Chesapeake Bay basin._
+
+_Table L-1. Spearman correlation was evaluated between HUC12 land use and the habitat/water quality parameters used to classify stream condition. See Appendix F and Appendix H for more parameter interpretation._
+
+

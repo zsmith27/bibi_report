@@ -1,0 +1,8 @@
+---
+title: "Preface"
+output: html_notebook
+---
+
+# Preface
+
+The Chessie BIBI is a large project that is expected to continue to evolve as new data is acquired, new ways of aggregating the data are explored, and new assessment methodologies are developed. This document is intended to provide a flexible framework upon which future refinement of the Chessie BIBI can be built upon. The document is created using RMarkdown, which enables the user to integrate R code within a text document. This provides the user with the capability of to update a chunk of code and observe the immediate and downstream effect of the code alteration within the context of the text document. For example, the user could modify the definition for the Reference and Degraded stream conditions, which has the potential to drastically alter the results of the study. In text values, tables, and figures downstream of the change will automatically be updated throughout the document. This feature makes it easier to perform analyses because all of the script is (hopefully) well documented and the workflow is organized for the user; that is, the user does not need to attempt to piece together twenty-five scripts developed by the author and then relate them back to a text document. Also, by simplifying the analysis process future exploration will be more effiecent and cost-effective. Better effiency means that there is more time available for additional data exploration or assessment. Finally, we hope that this format will encourage participation from other experts outside of our organization. Ideally, future refinements will include a large collabrotive base

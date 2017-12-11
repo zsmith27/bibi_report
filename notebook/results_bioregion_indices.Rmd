@@ -1,0 +1,49 @@
+---
+title: "Bioregion Indices"
+output: html_notebook
+---
+
+## Bioregion Indices
+
+The CA, MAC, and SEP bioregions had fewer than 50 Reference sampling events; the BLUE, CA, and PIED bioregions had fewer than 50 Degraded sampling events (Table 12). Fewer than approximately 50 samples from either Reference or Degraded conditions begins to increase variability, and thus uncertainty, in an index’s ability to correctly classify a sample (Buchanan et al. 2011). The CA bioregion was the poorest represented bioregion (order and family n = 367; genus n = 297), LNP was the best represented bioregion at the order- and family-levels (n = 3,625), and SEP was the best represented bioregion at the genus-level (n = 3,261).
+
+_Table 12. Order- and family-level macroinvertebrate sample numbers in each bioregion’s environmental condition class (and percent of the bioregion’s total sample number)._
+
+### Order-Level Indices
+
+An attempt was made to include at least one richness/diversity metric, one tolerance metric, and one composition metric in each order-level index. On average, six metrics were selected for each order-level index (Table 13). Redundancy, range, variability, and sensitivity assessments limited the representation of these metric classes in six of the twelve bioregions (i.e., BLUE, LNP, MAC, PIED, SEP, and UNP). The greatest number of metrics was selected for the SRV bioregion (n = 8). The performance of the indices varied greatly. The average index CE was 74.2% but CE values ranged from 57.8%, or little better than a coin toss, in NAPU to 87.6% in LNP (Table 14). The mean index BSP (x̅=54.3) did not vary drastically from the expected value of 50.0 (Table 14). Index scores, in general, depicted a weak descending trend from Reference to Degraded conditions (Figure 10 and Figure 11).
+
+_Table 13. Metrics included in the bioregion-specific, order-level indices._
+
+_Table 14. The Best Separation Point (BSP) for bioregion index scores The BSP is used as the threshold for calculating Classification Efficiency (CE)._
+
+_Figure 10. Distributions of index scores for order-level indices in six bioregions: Central Appalachians (CA), Northern Appalachian Plateau and Uplands (NAPU), Northern Central Appalachians (NCA), Northern Ridge and Valley (NRV), Southern Great Valley (SGV), and Southern Ridge and Valley (SRV). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+_Figure 11. Distributions of index scores for order-level indices in six bioregions: Blue Ridge Mountains (BLUE), Lower Northern Piedmont (LNP), Middle-Atlantic Coast (MAC), Piedmont (PIED), Southeastern Plains (SEP), and Upper Northern Piedmont (UNP). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+### Family-Level Indices
+
+The average number of metrics selected for each bioregion was twelve; the greatest number of metrics (n = 21) was selected in the SGV bioregion (Table 15). Although we required at least four of the five metric classes to be represented in each index, redundancy, range, variability, and sensitivity tests prevented the selection of four metric classes in the PIED bioregion. The PIED index was composed of three richness/diversity metrics, two habit metrics, and three tolerance metrics. The mean BDE of all the metrics was 72.43%. CEs of the indices averaged 81.6%, and ranged from 70.4% in the NAPU to 90.0% in the UNP (Table 14). The BSP’s averaged 55.3, and ranged from 47 (NCA) to 61 (LNP and SGV). In general, a descending gradient as degradation increases was observed for each bioregion index (Figure 12 and Figure 13).
+
+_Table 15. Metrics included in the family-level bioregion indices._
+
+
+_Figure 12. Distributions of index scores for family-level indices in six bioregions: Central Appalachians (CA), Northern Appalachian Plateau and Uplands (NAPU), Northern Central Appalachians (NCA), Northern Ridge and Valley (NRV), Southern Great Valley (SGV), and Southern Ridge and Valley (SRV). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+_Figure 13. Distributions of index scores for family-level indices in six bioregions: Blue Ridge Mountains (BLUE), Lower Northern Piedmont (LNP), Middle-Atlantic Coast (MAC), Piedmont (PIED), Southeastern Plains (SEP), and Upper Northern Piedmont (UNP). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+### Genus-Level Indices
+
+Sampling events used in this analysis were required to have 90% or more taxa identified to the genus-level. A total of 2,711 sampling events, which were applicable for the order and family-level assessments, had to be omitted because too few taxa were identified to genus (Table 16). Despite the reduction of Reference and Degraded samples, many of the bioregions retained a substantial sample size for index development. However, CA, MAC, and SEP bioregions had fewer than 50 Reference samples, and the BLUE, CA, NAPU, NCA, and PIED had fewer than 50 Degraded samples.
+
+_Table 16. Sample numbers in the bioregion condition categories that met the genus-level index requirements._
+
+At least four out of the five metric types were typically represented in each index (Table 17). The fewest metrics (n = 8) were selected for SRV and UNP. The greatest number of metrics (n = 22) were selected for BLUE index. On average, approximately fourteen metrics were selected for each bioregion. The mean BDE of all the metrics selected within the basin was 72.2%. The mean CE was 83.3% but ranged from 72.7% (NAPU) to 89.4% (NRV) (Table 14). The mean BSP (𝑥̅=53.0) did not differ from the expected BSP of 50.0. The lowest BSP was observed in the NRV (x = 46.0), while the greatest BSP was found in the UNP (x = 59.0). Figure 14 and Figure 15 depict the final index scores of the sampling event categories.
+
+_Table 17. Metrics included in the bioregion-specific, genus-level indices._
+
+
+_Figure 14. Distributions of index scores for genus-level indices in six bioregions: Central Appalachians (CA), Northern Appalachian Plateau and Uplands (NAPU), Northern Central Appalachians (NCA), Northern Ridge and Valley (NRV), Southern Great Valley (SGV), and Southern Ridge and Valley (SRV). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+
+_Figure 15. Distributions of index scores for genus-level indices in six bioregions: Blue Ridge Mountains (BLUE), Lower Northern Piedmont (LNP), Middle-Atlantic Coast (MAC), Piedmont (PIED), Southeastern Plains (SEP), and Upper Northern Piedmont (UNP). The whisker lengths are designated by the Interquartile Range multiplied by 1.5. The horizontal red line represents the Best Separation Point (BSP) between the Reference and Degraded distributions. BSP was used as a threshold for evaluating Classification Efficiency (CE)._
+

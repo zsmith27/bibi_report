@@ -1,0 +1,12 @@
+---
+title: "Narrative Rating Categories"
+output: html_notebook
+---
+
+## Narrative Rating Categories
+
+The numeric thresholds of the rating scale used in the 2011 Chessie BIBI (Buchanan et al. 2011) could not be applied to the family-level index scores for the twelve new bioregions because refinements in the metric scoring procedure to improve resolution caused an overall increase in the Reference index scores. Preliminary results in this study indicate that using the same threshold values for rating the index scores of the twelve new bioregions could create bioregion biases. Although each bioregion index is scored on a standard 0 - 100 continuous scale, a score from one index may not be directly comparable to a score in another index (Pond et al. 2011). The influence of natural and anthropogenic factors become more pronounced at the smaller bioregion spatial scales (see above), and using the same thresholds will penalize bioregions that score low for causes that were not accounted for when Reference condition criteria are applied (e.g., Figures L-1 and L-2). For each bioregion, index scores were rated according to their individual, bioregion-specific Reference distributions. For the same reasons, separate narrative rating scales based on percentiles of the Reference and Degraded index scores were developed for the Coast and Inland region indices.
+
+The order-, family- and genus-level indices were rated on a 5-category scale based on the Reference distribution without outliers. Outliers were Reference index scores outside of 1.5 times the Reference interquartile range. After removing the outliers, the thresholds were derived from the 50th, 25th, and 10th percentiles of Reference and half of the value of the 10th percentile (Table 5). Scores equal to the rating thresholds were always categorized as better of the two ratings. For example, a sampling event with a score equal to the rating threshold between Poor and Fair would receive a Fair rating.
+
+_Table 5. Index scores used as thresholds to separate the narrative rating categories for the order-, family- and genus-level index scores. Thresholds were defined by the 50th, 25th, and 10th Reference percentiles and half of the value of the 10th percentile._

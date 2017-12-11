@@ -1,0 +1,69 @@
+---
+title: "Metric Testing"
+output: html_notebook
+---
+
+## Metric Testing
+
+Biological metrics included in the indices were selected based on their responses to an environmental gradient and their ecological relevance. Evaluations of metric sensitivity, range, variability, and redundancy were conducted for each metric. Metrics which had high range, low variability, were not redundant, and consistently distinguished between environmental condition classes (i.e., sensitive metrics) were considered for the final index. R-statistical language (R Core Team 2016) was used to create functions that automated many of the processes involved in metric selection and index development. Decisions generally made during development were built into the functions or were made into variables easily manipulated with each iteration of the function. Programming the index development process provided rapid, repeatable, and precise results.
+
+### Metric Sensitivity
+
+Metric sensitivity is the measure of a metric’s responsiveness to environmental degradation (Barbour et al. 1999). A metric’s Discrimination Efficiency (DE) is often used to quantify metric sensitivity. We developed a new method for measuring metric sensitivity referred to as Balanced Discrimination Efficiency (BDE). BDE is essentially the same as the sensitivity measure used in the 2011 Chessie BIBI report where it was called DE (Buchanan et al. 2011).
+DE and BDE are modifications of the Classification Efficiency (CE) equation. CE is a measure used to assess the ability of a multi-metric index to discriminate between Reference and Degraded sites (Equation 1).
+
+_Equation 1._
+
+    Where:
+    Refcorrect = the number of Reference samples correctly identified by a threshold.
+    nRef = the total number of Reference samples.
+    Degcorrect = the number of Degraded samples correctly identified by a threshold.
+    nDeg = the total number of Degraded samples._
+
+A threshold is selected to create a binary measure of the index performance. For metrics that decrease with degradation, values greater than or equal to the threshold value are considered to represent a Reference condition and values less than the threshold represent a Degraded condition. The percentage of Reference samples (%Ref) and the percentage of Degraded samples (%Deg) correctly identified by the threshold are calculated, and the mean of %Ref and %Deg provides a measure of the index’s ability to correctly classify environmental condition.
+
+The DE measure uses specific percentiles of an individual metric’s Reference distribution to establish thresholds for the metric. For metrics that decrease with disturbance, DE uses the 25th percentile of the Reference distribution as a threshold for distinguishing Reference and Degraded samples (Gerritsen et al. 2000). For metrics that increase with disturbance, DE uses the 75th percentile of the Reference distribution. The percentage of Degraded samples correctly identified by the threshold is then calculated using Equation 2, which is equivalent to the %Deg formula from Equation 1.
+
+_Equation 2._
+
+    Where:
+    a = the number of Degraded samples correctly identified by the Reference threshold.
+    b = the total number of Degraded samples.
+
+During the DE calculation, the percentage of reference sites correctly identified is a static 75% based on the 25th or 75th Reference percentile. If these thresholds were applied to the CE equation (Equation 1), %Ref would always be represented as 75%. Because %Ref is a constant, %Deg is the dynamic factor influencing CE. Therefore, DE simplifies the CE equation to focus on the dynamic factor (i.e., %Deg). The DE methodology provides a simplistic evaluation of metric sensitivity but is prone to classification bias (i.e., DE favors the correct classification of Degraded samples).
+
+The sensitivity measure performed during this assessment is an iterative process, with the objective of finding metric thresholds where %Ref and %Deg are roughly equal. Each Reference percentile was systematically checked as a possible threshold. For each threshold, the percentage of samples correctly identified as Reference and Degraded was measured (Equation 3).
+
+_Equation 3._
+
+Bi was the discrimination efficiency using the ith percentile of the metric’s Reference distribution as the threshold. The absolute value of the difference between %Ref and %Deg was used as a balancing factor. Subtracting the balancing factor from the average reduced the probability of selecting a threshold that was biased towards correctly identifying one of the two environmental conditions.
+
+The threshold which produced the maximum Bi was approximately the point that bisected the Reference and Degraded distributions. We refer to this threshold as the metric’s Best Separation Point (BSP). The BSP was used as the threshold to calculate the Balanced Discrimination Efficiency (BDE) for each metric (Equation 4). The metrics with the greatest BDE’s were considered as candidates for the final index. The BDE equation is effectively the same as Equation 1 for CE.
+
+_Figure 4. Balanced Discrimination Efficiency (BDE) generally measures metric sensitivity at a different threshold than Discrimination Efficiency (DE). The figures depict metrics that decrease with disturbance. BDE is based on the Best Separation Point (BSP), the point at which the percentage of Reference and Degraded samples correctly identified are approximately equal (Figure 4A). DE is measured based on a standard threshold defined by the Reference distributions 25th percentile (Figure 4B)._
+
+_Equation 4._
+
+    Where:
+    Refcorrect = the number of Reference samples correctly identified by the BSP threshold.
+    nRef = the total number of Reference samples.
+    Degcorrect = the number of Degraded samples correctly identified by the BSP threshold.
+    nDeg = the total number of Degraded samples.
+    BSP = indicates that the Best Separation Point was used as the threshold for discerning Reference and Degraded samples.
+
+%Ref and %Deg were dynamic factors in the BDE equation (Figure 4 A), providing a more specific assessment of a metrics ability to discriminate than the standard DE method (Figure 4 B). Additionally, the BSP is used in the scoring procedure (See II. G. Metric Scoring Approach) providing continuity between metric sensitivity and metric scoring.
+
+Figure 4. Balanced Discrimination Efficiency (BDE) generally measures metric sensitivity at a different threshold than Discrimination Efficiency (DE). The figures depict metrics that decrease with disturbance. BDE is based on the Best Separation Point (BSP), the point at which the percentage of Reference and Degraded samples correctly identified are approximately equal (Figure 4A). DE is measured based on a standard threshold defined by the Reference distributions 25th percentile (Figure 4B).
+
+### Range and Variability
+
+The selected metrics should respond to environmental degradation and not to variability in the data (Barbour et al. 1999). Setting standards for metric range and variability can protect against overfitting the index. Only Reference samples were used to assess metric range and variability. Blocksom and Johnson (2009) calculated range as the difference between the maximum metric value and the minimum metric value. To avoid the influence of outliers we calculated range as the difference between the Reference 95th percentile and the Reference 5th percentile. Table 6 summarizes range requirements specified for the metrics assessed in the analysis. Selecting metrics with low range restricts the Reference criteria beyond expected natural variability and in effect creates a high probability for false-negatives.
+
+_Table 6. The metrics selected for the final indices were required to meet specified Reference distribution range requirements._
+
+Measuring variability acts as a counter measure to range. Preferably metrics with high range and low variability are selected for further analysis. Variability was measured as the range of the Reference interquartiles relative to the range between 0 and the reference 25th percentile (Blocksom and Johnson 2009). Metrics were selected if the ratio of the interquartile range relative to the range between 0 to the Reference 25th percentile was less than 3. Blocksom and Johnson (2009) recommended a ratio of less than 1 but this standard too frequently eliminated sensitive metrics.
+
+### Metric Redundancy
+
+Spearman correlation was used to assess metric redundancy. Including two highly correlated metrics in the final index is analogous to doubling the weight of a single metric in the index. The final biological index is composed of multiple metrics that are not strongly correlated and each metric evaluates the response of different aspects of the biological assemblage to disturbance. A correlation coefficient of 0.85 (r ≥ 0.85 or r ≤ -0.85) was selected for this study. A coefficient of 0.85 is a relatively high correlation coefficient but it has been used in other indices (Gerritsen et al. 2000, Butcher et al. 2003) and indicates ~72% of paired metric values have a positive or negative relationship. Redundant metrics (r ≥ 0.85 or r ≤ -0.85) were compared to determine which metric showed greater separation between the Reference and Degraded distributions. The metric with the lower p-value was retained. The metrics remaining after the metric redundancy assessment were considered for the final index.
+
